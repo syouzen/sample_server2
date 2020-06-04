@@ -6,7 +6,7 @@ int main(int argc, char* argv[]) {
 
   ss.OpenServer();
   while (1) {
-    ss.ReceiveAndSendMessage();
+    ss.ReceiveMessage();
     sleep(1);
   }
 

@@ -9,7 +9,7 @@ class SampleServer {
 
  public:
   void OpenServer();
-  void ReceiveAndSendMessage();
+  void ReceiveMessage();
 
  private:
   int server_fd;

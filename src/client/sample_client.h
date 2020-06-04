@@ -9,7 +9,7 @@ class SampleClient {
 
  public:
   void AddSocket();
-  void SendAndReceiveMessage();
+  void SendMessage();
   void CloseClient();
 
  private:

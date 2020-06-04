@@ -4,7 +4,9 @@ int main() {
   Client::SampleClient sc;
 
   sc.AddSocket();
-  sc.SendAndReceiveMessage();
+  while(1) {
+    sc.SendMessage();
+  }
   sc.CloseClient();
 
   return 0;
